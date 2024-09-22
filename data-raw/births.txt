@@ -1,0 +1,279 @@
+prenatal,type
+Adequate,Preterm (induced or cesarean)
+Adequate,Preterm (without procedures)
+Inadequate,Term or post-term
+Adequate,Preterm (induced or cesarean)
+Inadequate,Term or post-term
+Inadequate,Term or post-term
+Adequate,Preterm (induced or cesarean)
+Inadequate,Preterm (without procedures)
+Inadequate,Term or post-term
+Adequate,Preterm (induced or cesarean)
+Adequate,Preterm (without procedures)
+Adequate,Preterm (induced or cesarean)
+Inadequate,Preterm (induced or cesarean)
+Adequate,Preterm (induced or cesarean)
+Intensive,Preterm (without procedures)
+Intensive,Preterm (without procedures)
+Intensive,Term or post-term
+Inadequate,Term or post-term
+Adequate,Term or post-term
+Intensive,Term or post-term
+Inadequate,Preterm (without procedures)
+Inadequate,Term or post-term
+Inadequate,Term or post-term
+Intensive,Preterm (without procedures)
+Adequate,Preterm (without procedures)
+Intensive,Term or post-term
+Inadequate,Term or post-term
+Adequate,Preterm (without procedures)
+Adequate,Preterm (without procedures)
+Intensive,Term or post-term
+Adequate,Term or post-term
+Intensive,Term or post-term
+Adequate,Term or post-term
+Adequate,Term or post-term
+Adequate,Term or post-term
+Adequate,Preterm (induced or cesarean)
+Inadequate,Term or post-term
+Adequate,Term or post-term
+Intensive,Preterm (without procedures)
+Adequate,Term or post-term
+Adequate,Preterm (induced or cesarean)
+Adequate,Preterm (without procedures)
+Inadequate,Preterm (induced or cesarean)
+Adequate,Preterm (induced or cesarean)
+Adequate,Preterm (without procedures)
+Intensive,Preterm (induced or cesarean)
+Intensive,Term or post-term
+Adequate,Term or post-term
+Adequate,Preterm (without procedures)
+Inadequate,Preterm (without procedures)
+Adequate,Preterm (induced or cesarean)
+Intensive,Preterm (induced or cesarean)
+Intensive,Term or post-term
+Adequate,Preterm (without procedures)
+Inadequate,Term or post-term
+Intensive,Preterm (induced or cesarean)
+Adequate,Term or post-term
+Adequate,Term or post-term
+Intensive,Preterm (without procedures)
+Adequate,Preterm (without procedures)
+Adequate,Preterm (induced or cesarean)
+Adequate,Term or post-term
+Inadequate,Term or post-term
+Adequate,Preterm (induced or cesarean)
+Adequate,Preterm (induced or cesarean)
+Inadequate,Preterm (without procedures)
+Intensive,Term or post-term
+Adequate,Preterm (without procedures)
+Adequate,Preterm (without procedures)
+Adequate,Term or post-term
+Intensive,Preterm (induced or cesarean)
+Intensive,Preterm (induced or cesarean)
+Intensive,Term or post-term
+Adequate,Preterm (induced or cesarean)
+Inadequate,Preterm (without procedures)
+Adequate,Term or post-term
+Inadequate,Term or post-term
+Adequate,Preterm (induced or cesarean)
+Adequate,Term or post-term
+Inadequate,Term or post-term
+Intensive,Preterm (induced or cesarean)
+Adequate,Preterm (induced or cesarean)
+Adequate,Term or post-term
+Inadequate,Term or post-term
+Adequate,Preterm (induced or cesarean)
+Adequate,Term or post-term
+Adequate,Term or post-term
+Intensive,Term or post-term
+Adequate,Preterm (without procedures)
+Adequate,Term or post-term
+Adequate,Preterm (induced or cesarean)
+Adequate,Preterm (without procedures)
+Intensive,Preterm (induced or cesarean)
+Intensive,Preterm (without procedures)
+Inadequate,Term or post-term
+Inadequate,Term or post-term
+Adequate,Term or post-term
+Intensive,Term or post-term
+Adequate,Preterm (induced or cesarean)
+Intensive,Term or post-term
+Adequate,Preterm (induced or cesarean)
+Adequate,Term or post-term
+Inadequate,Preterm (without procedures)
+Adequate,Term or post-term
+Intensive,Preterm (induced or cesarean)
+Adequate,Term or post-term
+Adequate,Preterm (induced or cesarean)
+Adequate,Term or post-term
+Adequate,Term or post-term
+Adequate,Preterm (induced or cesarean)
+Inadequate,Preterm (without procedures)
+Intensive,Term or post-term
+Adequate,Preterm (without procedures)
+Inadequate,Preterm (without procedures)
+Inadequate,Term or post-term
+Inadequate,Term or post-term
+Intensive,Preterm (without procedures)
+Adequate,Term or post-term
+Intensive,Preterm (induced or cesarean)
+Adequate,Preterm (induced or cesarean)
+Inadequate,Preterm (without procedures)
+Adequate,Preterm (induced or cesarean)
+Adequate,Term or post-term
+Adequate,Term or post-term
+Inadequate,Preterm (without procedures)
+Inadequate,Term or post-term
+Intensive,Term or post-term
+Intensive,Preterm (without procedures)
+Inadequate,Preterm (induced or cesarean)
+Adequate,Term or post-term
+Inadequate,Term or post-term
+Intensive,Term or post-term
+Adequate,Preterm (induced or cesarean)
+Adequate,Term or post-term
+Adequate,Preterm (induced or cesarean)
+Adequate,Preterm (induced or cesarean)
+Inadequate,Preterm (induced or cesarean)
+Intensive,Preterm (without procedures)
+Adequate,Term or post-term
+Adequate,Term or post-term
+Inadequate,Term or post-term
+Adequate,Term or post-term
+Inadequate,Term or post-term
+Adequate,Preterm (without procedures)
+Intensive,Term or post-term
+Adequate,Term or post-term
+Intensive,Preterm (induced or cesarean)
+Adequate,Term or post-term
+Adequate,Term or post-term
+Adequate,Preterm (without procedures)
+Adequate,Term or post-term
+Adequate,Preterm (induced or cesarean)
+Adequate,Preterm (induced or cesarean)
+Adequate,Preterm (induced or cesarean)
+Intensive,Term or post-term
+Inadequate,Term or post-term
+Adequate,Preterm (without procedures)
+Inadequate,Preterm (induced or cesarean)
+Intensive,Preterm (induced or cesarean)
+Adequate,Preterm (without procedures)
+Intensive,Preterm (induced or cesarean)
+Adequate,Term or post-term
+Inadequate,Preterm (without procedures)
+Intensive,Preterm (without procedures)
+Intensive,Preterm (without procedures)
+Inadequate,Preterm (induced or cesarean)
+Adequate,Preterm (induced or cesarean)
+Adequate,Term or post-term
+Adequate,Preterm (without procedures)
+Intensive,Term or post-term
+Inadequate,Term or post-term
+Adequate,Term or post-term
+Adequate,Term or post-term
+Adequate,Preterm (without procedures)
+Inadequate,Term or post-term
+Intensive,Preterm (without procedures)
+Adequate,Preterm (induced or cesarean)
+Adequate,Preterm (without procedures)
+Adequate,Preterm (induced or cesarean)
+Adequate,Preterm (induced or cesarean)
+Intensive,Term or post-term
+Adequate,Preterm (without procedures)
+Adequate,Preterm (induced or cesarean)
+Inadequate,Term or post-term
+Adequate,Preterm (without procedures)
+Intensive,Preterm (without procedures)
+Inadequate,Preterm (induced or cesarean)
+Adequate,Term or post-term
+Adequate,Preterm (without procedures)
+Inadequate,Term or post-term
+Adequate,Term or post-term
+Adequate,Preterm (without procedures)
+Adequate,Preterm (induced or cesarean)
+Adequate,Preterm (induced or cesarean)
+Inadequate,Term or post-term
+Adequate,Term or post-term
+Inadequate,Preterm (induced or cesarean)
+Adequate,Preterm (without procedures)
+Adequate,Term or post-term
+Inadequate,Term or post-term
+Adequate,Term or post-term
+Adequate,Preterm (without procedures)
+Adequate,Preterm (induced or cesarean)
+Adequate,Preterm (without procedures)
+Adequate,Preterm (induced or cesarean)
+Adequate,Term or post-term
+Adequate,Term or post-term
+Intensive,Preterm (induced or cesarean)
+Intensive,Preterm (induced or cesarean)
+Intensive,Term or post-term
+Adequate,Preterm (induced or cesarean)
+Inadequate,Term or post-term
+Inadequate,Term or post-term
+Adequate,Term or post-term
+Adequate,Term or post-term
+Intensive,Preterm (induced or cesarean)
+Inadequate,Term or post-term
+Adequate,Preterm (induced or cesarean)
+Adequate,Preterm (without procedures)
+Inadequate,Preterm (induced or cesarean)
+Adequate,Preterm (induced or cesarean)
+Inadequate,Preterm (without procedures)
+Adequate,Preterm (without procedures)
+Adequate,Term or post-term
+Adequate,Term or post-term
+Adequate,Term or post-term
+Adequate,Term or post-term
+Intensive,Term or post-term
+Adequate,Preterm (without procedures)
+Adequate,Preterm (without procedures)
+Adequate,Preterm (without procedures)
+Adequate,Preterm (without procedures)
+Adequate,Preterm (without procedures)
+Inadequate,Preterm (induced or cesarean)
+Adequate,Term or post-term
+Adequate,Preterm (induced or cesarean)
+Adequate,Preterm (induced or cesarean)
+Adequate,Term or post-term
+Inadequate,Term or post-term
+Inadequate,Term or post-term
+Adequate,Preterm (induced or cesarean)
+Adequate,Term or post-term
+Adequate,Term or post-term
+Adequate,Preterm (without procedures)
+Adequate,Preterm (without procedures)
+Adequate,Term or post-term
+Adequate,Term or post-term
+Adequate,Preterm (without procedures)
+Intensive,Preterm (induced or cesarean)
+Inadequate,Preterm (induced or cesarean)
+Adequate,Preterm (without procedures)
+Adequate,Term or post-term
+Inadequate,Preterm (induced or cesarean)
+Intensive,Term or post-term
+Intensive,Preterm (induced or cesarean)
+Inadequate,Term or post-term
+Adequate,Term or post-term
+Intensive,Preterm (induced or cesarean)
+Adequate,Term or post-term
+Intensive,Term or post-term
+Intensive,Term or post-term
+Inadequate,Term or post-term
+Intensive,Preterm (without procedures)
+Adequate,Term or post-term
+Intensive,Term or post-term
+Adequate,Term or post-term
+Inadequate,Term or post-term
+Adequate,Preterm (induced or cesarean)
+Inadequate,Term or post-term
+Adequate,Preterm (without procedures)
+Intensive,Term or post-term
+Inadequate,Preterm (without procedures)
+Intensive,Term or post-term
+Intensive,Preterm (without procedures)
+Adequate,Preterm (without procedures)
+Adequate,Preterm (without procedures)
+Adequate,Term or post-term
+Intensive,Term or post-term

@@ -1,0 +1,15 @@
+animal,gestation,longevity
+bear(black),219,18
+bear(grizzly),225,25
+beaver,122,5
+buffalo,278,15
+chipmunk,31,6
+cow,284,15
+deer,201,8
+elk,250,15
+goat,151,8
+horse,330,20
+moose,240,12
+opossum,15,1
+rabbit,31,5
+sea lion,350,12
