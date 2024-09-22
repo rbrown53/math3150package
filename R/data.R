@@ -129,7 +129,7 @@
 #'   what they consider ideal.}
 #' }
 #'
-"births"
+"idealwt"
 
 #' diseases Data Set
 #'
@@ -138,7 +138,7 @@
 #'
 #' @format A tibble with 4 variables: 
 #' \describe{
-#'   \item{State}{A charcter vecotr indicating the state.}
+#'   \item{State}{A charcter vector indicating the state.}
 #'   \item{AIDS}{The number of reporeted AIDS cases.}
 #'   \item{Syphilis}{The number of reporeted syphilis cases.}
 #'   \item{Tuberculosis}{The number of reporeted tuberculosis cases.}
