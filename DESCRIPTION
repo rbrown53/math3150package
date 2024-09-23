@@ -10,8 +10,8 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Depends: 
     R (>= 4.4),
-    tidyverse,
-    nortest
+    nortest,
+    tidyverse
 LazyData: true
 Author: Rick Brown [aut, cre]
 Maintainer: Rick Brown <richardbrown1@suu.edu>
