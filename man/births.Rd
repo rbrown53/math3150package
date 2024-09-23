@@ -5,7 +5,7 @@
 \alias{births}
 \title{births Data Set}
 \format{
-A tibble with 2 variables:
+A tibble with 278 rows and 2 variables:
 \describe{
 \item{prenatal}{A factor indicating the prenatal care the mother received:
 Adequate, Inadequate, or Intensive.}

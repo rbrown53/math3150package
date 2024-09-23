@@ -5,7 +5,7 @@
 \alias{class_data_f2019}
 \title{class_data_f2019 Data Set}
 \format{
-A tibble with 7 variables:
+A tibble with 42 rows and 7 variables:
 \describe{
 \item{level}{A factor indicating the class level the student is: Freshman,
 Sophomore, Junior, Senior, or Graduate.}

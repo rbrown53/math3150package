@@ -5,7 +5,7 @@
 \alias{idealwt}
 \title{idealwt Data Set}
 \format{
-A tibble with 4 variables:
+A tibble with 182 rows and 4 variables:
 \describe{
 \item{sex}{A factor indicating the sex of the person: Female or Male.}
 \item{actual}{The person's actual weight.}

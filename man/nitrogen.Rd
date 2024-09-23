@@ -5,7 +5,7 @@
 \alias{nitrogen}
 \title{nitrogen Data Set}
 \format{
-A data frame with 1 variable:
+A data frame with 36 rows 1 variable:
 \describe{
 \item{nitrogen}{The nitrogen content for the trees.}
 }

@@ -5,7 +5,7 @@
 \alias{cars99}
 \title{cars99 Data Set}
 \format{
-A tibble with 11 variables:
+A tibble with 109 rows and 11 variables:
 \describe{
 \item{Model}{The vechicle model name.}
 \item{CityMPG}{The miles per gallon (MPG) for the vehicle in the city.}

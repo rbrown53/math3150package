@@ -5,7 +5,7 @@
 \alias{mlbsalaries}
 \title{mlbsalaries Data Set}
 \format{
-A tibble with 5 variables:
+A tibble with 877 rows and 5 variables:
 \describe{
 \item{Rank}{The ranking of the player's salary with 1 being the most money
 earned.}

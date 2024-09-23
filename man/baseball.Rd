@@ -5,7 +5,7 @@
 \alias{baseball}
 \title{baseball Data Set}
 \format{
-A tibble with 4 variables:
+A tibble with 337 rows and 28 variables:
 \describe{
 \item{salary}{The salary in $1000s.}
 \item{average}{Batting average of the player.}

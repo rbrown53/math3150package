@@ -5,7 +5,7 @@
 \alias{diseases}
 \title{diseases Data Set}
 \format{
-A tibble with 4 variables:
+A tibble with 51 rows and 4 variables:
 \describe{
 \item{State}{A charcter vector indicating the state.}
 \item{AIDS}{The number of reporeted AIDS cases.}

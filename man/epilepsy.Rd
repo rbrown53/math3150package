@@ -5,7 +5,7 @@
 \alias{epilepsy}
 \title{epilepsy Data Set}
 \format{
-A tibble with 4 variables:
+A tibble with 59 rows and 4 variables:
 \describe{
 \item{id}{The patient ID.}
 \item{numseiz}{The number of seizures the patient had.}
