@@ -3,7 +3,7 @@
 #' This data set contains information on the number of seizures, which 
 #' treatment, and the age of 59 patients with epilepsy.
 #'
-#' @format A tibble with 4 variables: 
+#' @format A tibble with 59 rows and 4 variables: 
 #' \describe{
 #'   \item{id}{The patient ID.}
 #'   \item{numseiz}{The number of seizures the patient had.}
@@ -16,7 +16,7 @@
 #'
 #' This data set contains information on 109 vechicles from 1999.
 #'
-#' @format A tibble with 11 variables: 
+#' @format A tibble with 109 rows and 11 variables: 
 #' \describe{
 #'   \item{Model}{The vechicle model name.}
 #'   \item{CityMPG}{The miles per gallon (MPG) for the vehicle in the city.}
@@ -38,7 +38,7 @@
 #'
 #' This data set contains information on 42 students from Fall of 2019.
 #'
-#' @format A tibble with 7 variables: 
+#' @format A tibble with 42 rows and 7 variables: 
 #' \describe{
 #'   \item{level}{A factor indicating the class level the student is: Freshman, 
 #'   Sophomore, Junior, Senior, or Graduate.}
@@ -61,7 +61,7 @@
 #'
 #' This data set contains information on 877 MLB players from 2018.
 #'
-#' @format A tibble with 5 variables: 
+#' @format A tibble with 877 rows and 5 variables: 
 #' \describe{
 #'   \item{Rank}{The ranking of the player's salary with 1 being the most money 
 #'   earned.}
@@ -85,7 +85,7 @@
 #' Composite samples obtained from a random sample of 36 orchards throughout the
 #' state gave the nitrogen contents.
 #'
-#' @format A data frame with 1 variable: 
+#' @format A data frame with 36 rows 1 variable: 
 #' \describe{
 #'   \item{nitrogen}{The nitrogen content for the trees.}
 #' }
@@ -102,7 +102,7 @@
 #' consists of 278 cases (rows) with two columns indicating the level of 
 #' prenatal care and type of birth for each set of twins.
 #'
-#' @format A tibble with 2 variables: 
+#' @format A tibble with 278 rows and 2 variables: 
 #' \describe{
 #'   \item{prenatal}{A factor indicating the prenatal care the mother received:
 #'   Adequate, Inadequate, or Intensive.}
@@ -119,7 +119,7 @@
 #' males). Actual weights, ideal weights, and the difference between them are 
 #' recorded.
 #'
-#' @format A tibble with 4 variables: 
+#' @format A tibble with 182 rows and 4 variables: 
 #' \describe{
 #'   \item{sex}{A factor indicating the sex of the person: Female or Male.}
 #'   \item{actual}{The person's actual weight.}
@@ -136,7 +136,7 @@
 #' This data set contains information for each state and Washington, D.C. about
 #' the number of reported cases of AIDS, syphilis, and tuberculosis.
 #'
-#' @format A tibble with 4 variables: 
+#' @format A tibble with 51 rows and 4 variables: 
 #' \describe{
 #'   \item{State}{A charcter vector indicating the state.}
 #'   \item{AIDS}{The number of reporeted AIDS cases.}
@@ -150,7 +150,7 @@
 #'
 #' This data set contains information for 337 baseball players.
 #'
-#' @format A tibble with 4 variables: 
+#' @format A tibble with 337 rows and 28 variables: 
 #' \describe{
 #'   \item{salary}{The salary in $1000s.}
 #'   \item{average}{Batting average of the player.}
