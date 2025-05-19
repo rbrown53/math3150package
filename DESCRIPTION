@@ -11,7 +11,8 @@ RoxygenNote: 7.3.2
 Depends: 
     R (>= 4.0),
     nortest,
-    tidyverse
+    tidyverse,
+    nnet
 LazyData: true
 Author: Rick Brown [aut, cre]
 Maintainer: Rick Brown <richardbrown1@suu.edu>
