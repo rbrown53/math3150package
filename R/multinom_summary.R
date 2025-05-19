@@ -26,7 +26,7 @@
 #' @export
 #' 
 
-multinom_summary <- function(model, which = NULL) {
+multinom_summary <- function(model) {
   if (!inherits(model, "multinom")) {
     stop("The model should be a multinomial model from the 'nnet' library.")
   }

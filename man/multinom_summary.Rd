@@ -5,7 +5,7 @@
 \title{Outputs estimates, standard errors, test statistic, and p-values for a
 multinomial logistic regression object from the nnet library.}
 \usage{
-multinom_summary(model, which = NULL)
+multinom_summary(model)
 }
 \arguments{
 \item{model}{An object of type "multinom" "nnet"}
