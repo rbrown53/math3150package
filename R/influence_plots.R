@@ -83,7 +83,7 @@ influence_plots <- function(model, missing_group = NULL) {
     scale_color_manual(values = c("black", "#F8766D"))
   print(graph)
 
-  readline(prompt = "Plot of Residuals. Press [enter] to continue")
+  readline(prompt = "Plot of Residuals. Press [enter] to continue.")
 
   # Residuals vs Fitted Values
   d_f <- data.frame(resids = resids, predictions = predict(model))
@@ -105,7 +105,7 @@ influence_plots <- function(model, missing_group = NULL) {
     scale_color_manual(values = c("black", "#F8766D"))
   print(graph)
 
-  readline(prompt = "Residual Plot. Press [enter] to continue")
+  readline(prompt = "Residual Plot. Press [enter] to continue.")
 
   # Leverage Plot
   hatvals <- hatvalues(model)
@@ -131,7 +131,7 @@ influence_plots <- function(model, missing_group = NULL) {
     scale_color_manual(values = c("black", "#F8766D"))
   print(graph)
 
-  readline(prompt = "Leverage Plot. Press [enter] to continue")
+  readline(prompt = "Leverage Plot. Press [enter] to continue.")
 
   # Cooks Distance
   cooks <- cooks.distance(model)
@@ -157,7 +157,7 @@ influence_plots <- function(model, missing_group = NULL) {
     scale_color_manual(values = c("black", "#F8766D"))
   print(graph)
 
-  readline(prompt = "Cook's Distance. Press [enter] to continue")
+  readline(prompt = "Cook's Distance. Press [enter] to continue.")
 
   # DfFits
   cutoff <- 2 * sqrt(p / n)
@@ -190,7 +190,7 @@ influence_plots <- function(model, missing_group = NULL) {
     scale_color_manual(values = c("black", "#F8766D"))
   print(graph)
 
-  readline(prompt = "DfFits. Press [enter] to continue")
+  readline(prompt = "DfFits. Press [enter] to continue.")
 
   # DfBetas
   cutoff <- 2 / sqrt(n)
@@ -227,6 +227,6 @@ influence_plots <- function(model, missing_group = NULL) {
       scale_color_manual(values = c("black", "#F8766D"))
     print(graph)
 
-    readline(prompt = "DfBetas. Press [enter] to continue")
+    readline(prompt = "DfBetas. Press [enter] to end.")
   }
 }
