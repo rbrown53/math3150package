@@ -227,6 +227,10 @@ influence_plots <- function(model, missing_group = NULL) {
       scale_color_manual(values = c("black", "#F8766D"))
     print(graph)
 
-    readline(prompt = "DfBetas. Press [enter] to end.")
+    if(i < p) {
+      readline(prompt = "DfBetas. Press [enter] to continue.")
+    } else {
+      readline(prompt = "DfBetas. Press [enter] to end.")
+    }
   }
 }
