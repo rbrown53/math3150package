@@ -62,7 +62,7 @@ bootstrapping <- function(data, statistic, R, ...) {
   }
   boot_out$boot_info <- tidy_boot
   
-  boot_out$samples <- as_tibble(boot_out$t)
+  boot_out$samples <- as_tibble(boot_out$t, .name_repair = "minimal")
   ncols <- ncol(boot_out$t)
   colnames(boot_out$samples) <- paste0("stat", 1:ncols)
   

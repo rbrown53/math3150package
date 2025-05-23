@@ -9,7 +9,7 @@
 #' 
 #' @import 
 #'   ggplot2
-#'   gridExtra
+#' @importFrom gridExtra grid.arrange
 #'
 #' @export plot.boot3150
 #' @export
