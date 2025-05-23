@@ -1,8 +1,8 @@
 #' Creates many diagnostic plots
 #'
 #' This function creates many diagnostic plots for a given model. These plots 
-#' include residual plots, a leverage plot, a Cook's distance plot, a DfFits
-#' plot, and DfBetas plots for the intercept and all slopes.
+#' include residual plots, a QQ plot, a leverage plot, a Cook's distance plot,
+#' a DfFits plot, and DfBetas plots for the intercept and all slopes.
 #'
 #' @param model The model for which we would like these plots. This can be of
 #' class "lm" or "glm" with a binomial family.
@@ -80,7 +80,8 @@ influence_plots <- function(model, missing_group = NULL) {
       plot.title = element_text(size = 14, face = "bold")
     ) +
     theme(legend.position = "none") +
-    scale_color_manual(values = c("black", "#F8766D"))
+    scale_color_manual(values = c("black", "#F8766D")) +
+    coord_cartesian(clip = "off")
   print(graph)
 
   readline(prompt = "Plot of Residuals. Press [enter] to continue.")
@@ -102,11 +103,37 @@ influence_plots <- function(model, missing_group = NULL) {
     geom_text(label = labelx_pos, nudge_y = 0.2) +
     geom_text(label = labelx_neg, nudge_y = -0.2) +
     theme(legend.position = "none") +
-    scale_color_manual(values = c("black", "#F8766D"))
+    scale_color_manual(values = c("black", "#F8766D")) +
+    coord_cartesian(clip = "off")
   print(graph)
 
   readline(prompt = "Residual Plot. Press [enter] to continue.")
 
+  # QQ Plot
+  graph <- ggplot(d_f, aes(sample = resids)) +
+    geom_qq_line() +
+    geom_qq(size = 2,
+            color = ifelse(color_flag[order(resids)], "#F8766D", "black")) +
+    labs(x = "Theoretical Normal Quantiles", 
+         y = paste0("Sample Quantiles (", residlab, ")")) +
+    ggtitle(paste0("QQ Plot for the ", residlab, missinglab)) +
+    theme(
+      axis.title = element_text(size = 14),
+      plot.title = element_text(size = 14, face = "bold")
+    )
+  graph_df <- ggplot_build(graph)$data[[2]]
+  graph <- graph + 
+    geom_text(data = graph_df, mapping = aes(x = x, y = y),
+              label = labelx_pos[order(resids)],
+              nudge_y = 0.2) +
+    geom_text(data = graph_df, mapping = aes(x = x, y = y), 
+              label = labelx_neg[order(resids)], nudge_y = -0.2) +
+    theme(legend.position = "none") +
+    coord_cartesian(clip = "off")
+  print(graph)
+  
+  readline(prompt = "QQ Plot. Press [enter] to continue.")
+  
   # Leverage Plot
   hatvals <- hatvalues(model)
   d_f <- data.frame(hatvals = hatvals, index = index)
@@ -122,13 +149,15 @@ influence_plots <- function(model, missing_group = NULL) {
     geom_hline(yintercept = cutoff, linewidth = 0.7) +
     geom_text(label = labelx, nudge_y = max(hatvals) * 0.02) +
     labs(x = "Index", y = "Leverage (Hat Value)") +
+    ylim(0, NA) +
     ggtitle(paste0("Leverage Plot", missinglab)) +
     theme(
       axis.title = element_text(size = 14),
       plot.title = element_text(size = 14, face = "bold")
     ) +
     theme(legend.position = "none") +
-    scale_color_manual(values = c("black", "#F8766D"))
+    scale_color_manual(values = c("black", "#F8766D")) +
+    coord_cartesian(clip = "off")
   print(graph)
 
   readline(prompt = "Leverage Plot. Press [enter] to continue.")
@@ -148,13 +177,15 @@ influence_plots <- function(model, missing_group = NULL) {
     geom_hline(yintercept = cutoff, linewidth = 0.7) +
     geom_text(label = labelx, nudge_y = max(cooks) * 0.02) +
     labs(x = "Index", y = "Cook's Distance") +
+    ylim(0, NA) +
     ggtitle(paste0("Cook's Distance Plot", missinglab)) +
     theme(
       axis.title = element_text(size = 14),
       plot.title = element_text(size = 14, face = "bold")
     ) +
     theme(legend.position = "none") +
-    scale_color_manual(values = c("black", "#F8766D"))
+    scale_color_manual(values = c("black", "#F8766D")) +
+    coord_cartesian(clip = "off")
   print(graph)
 
   readline(prompt = "Cook's Distance. Press [enter] to continue.")
@@ -187,7 +218,8 @@ influence_plots <- function(model, missing_group = NULL) {
       plot.title = element_text(size = 14, face = "bold")
     ) +
     theme(legend.position = "none") +
-    scale_color_manual(values = c("black", "#F8766D"))
+    scale_color_manual(values = c("black", "#F8766D")) +
+    coord_cartesian(clip = "off")
   print(graph)
 
   readline(prompt = "DfFits. Press [enter] to continue.")
@@ -224,7 +256,8 @@ influence_plots <- function(model, missing_group = NULL) {
         plot.title = element_text(size = 14, face = "bold")
       ) +
       theme(legend.position = "none") +
-      scale_color_manual(values = c("black", "#F8766D"))
+      scale_color_manual(values = c("black", "#F8766D")) +
+      coord_cartesian(clip = "off")
     print(graph)
 
     if(i < p) {

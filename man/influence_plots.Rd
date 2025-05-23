@@ -19,8 +19,8 @@ to view subsequent plots.
 }
 \description{
 This function creates many diagnostic plots for a given model. These plots
-include residual plots, a leverage plot, a Cook's distance plot, a DfFits
-plot, and DfBetas plots for the intercept and all slopes.
+include residual plots, a QQ plot, a leverage plot, a Cook's distance plot,
+a DfFits plot, and DfBetas plots for the intercept and all slopes.
 }
 \examples{
 mod <- lm(mpg ~ disp, data = mtcars)
