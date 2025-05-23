@@ -49,14 +49,14 @@
 bootstrapping <- function(data, statistic, R, ...) {
   boot_out <- boot::boot(data, statistic, R, ...)
   tidy_boot <- tidy(boot_out) |>
-    rename(original_average = statistic)
+    rename(original_value = statistic)
   if ("term" %in% names(tidy_boot)) {
     tidy_boot <- tidy_boot |>
-      mutate(sample_average = original_average + bias)
+      mutate(sample_average = original_value + bias)
     tidy_boot <- tidy_boot[,c(1, 5, 2, 3, 4)]
   } else {
     tidy_boot <- tidy_boot |>
-      mutate(sample_average = original_average + bias,
+      mutate(sample_average = original_value + bias,
              statistic = paste0("stat", 1:nrow(tidy_boot)))
     tidy_boot <- tidy_boot[,c(5, 4, 1, 2, 3)]
   }
