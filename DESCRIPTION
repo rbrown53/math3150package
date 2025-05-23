@@ -10,14 +10,14 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Depends: 
     R (>= 4.2),
-    boot,
-    broom,
-    gridExtra,
-    nnet,
-    nortest,
     tidyverse
 Imports:
-    GGally
+    boot,
+    broom,
+    GGally,
+    gridExtra,
+    nnet,
+    nortest
 LazyData: true
 Author: Rick Brown [aut, cre]
 Maintainer: Rick Brown <richardbrown1@suu.edu>
