@@ -9,6 +9,7 @@
 #' 
 #' @import 
 #'   ggplot2
+#'   gridExtra
 #'
 #' @export plot.boot3150
 #' @export

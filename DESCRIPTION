@@ -11,8 +11,10 @@ RoxygenNote: 7.3.2
 Depends: 
     R (>= 4.2),
     boot,
-    nortest,
+    broom,
+    gridExtra,
     nnet,
+    nortest,
     tidyverse
 LazyData: true
 Author: Rick Brown [aut, cre]

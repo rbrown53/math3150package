@@ -29,6 +29,7 @@
 #'
 #' @import
 #'   boot
+#'   tibble
 #'
 #' @export
 

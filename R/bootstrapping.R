@@ -40,6 +40,9 @@
 #'
 #' @import
 #'   boot
+#'   broom
+#'   dplyr
+#'   tibble
 #'
 #' @export
 
