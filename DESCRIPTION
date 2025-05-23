@@ -12,6 +12,7 @@ Depends:
     R (>= 4.2),
     boot,
     broom,
+    GGally,
     gridExtra,
     nnet,
     nortest,
