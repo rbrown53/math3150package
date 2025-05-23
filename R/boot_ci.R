@@ -57,6 +57,10 @@ boot_ci <- function(boot_out, conf = 0.95, type = "all", ...) {
     class(cis) <- "innerboot3150ci"
     all_cis[[paste0("stat", index)]] = cis
   }
-  class(all_cis) <- "boot3150ci"
-  all_cis
+  if(indices == 1) {
+    return(cis)
+  } else {
+    class(all_cis) <- "boot3150ci"
+    return(all_cis)
+  }
 }
