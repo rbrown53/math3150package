@@ -12,11 +12,12 @@ Depends:
     R (>= 4.2),
     boot,
     broom,
-    GGally,
     gridExtra,
     nnet,
     nortest,
     tidyverse
+Imports:
+    GGally
 LazyData: true
 Author: Rick Brown [aut, cre]
 Maintainer: Rick Brown <richardbrown1@suu.edu>
