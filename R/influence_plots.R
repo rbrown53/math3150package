@@ -34,7 +34,8 @@ influence_plots <- function(model, missing_group = NULL) {
     cutoff_low <- qt(1 - .05 / 2, n - p - 1)
     missinglab <- ""
   } else if (class(model)[1] == "glm" && model$call[3] == "binomial()" ||
-    class(model)[1] == "glm" && model$call[3] == '"binomial"()') {
+    class(model)[1] == "glm" && model$call[3] == '"binomial"()' ||
+    class(model)[1] == "glm" && model$call[3] == "binomial()()") {
     resids <- residuals(model, type = "pearson") / sqrt(1 - hatvalues(model))
     residlab <- "Standardized Pearson Residuals"
     cutoff <- qnorm(1 - .05 / 2 / n)
@@ -45,7 +46,7 @@ influence_plots <- function(model, missing_group = NULL) {
       missinglab <- ""
     }
   } else {
-    return(print("Please enter either an linear or logistic model"))
+    return(print("Please enter either a linear or logistic model"))
   }
   names(resids) <- rownames(model.frame(model))
 

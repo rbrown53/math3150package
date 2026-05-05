@@ -32,7 +32,7 @@ logistic_plots <- function(model) {
       print(paste("Plots for Model Without Group", i))
       if (dim(modeldf)[2] > 2) {
         influence_plots(
-          glm(y[y != i] ~ ., data = modeldf[y != i, -1],family = binomial),
+          glm(y[y != i] ~ ., data = modeldf[y != i, -1], family = binomial),
           missing_group = i
           )
       } else {
